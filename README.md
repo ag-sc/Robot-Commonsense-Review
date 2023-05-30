@@ -23,7 +23,7 @@ Our paper aims at answering the following research questions by performing a sys
 
 ## Search Methodology
 
-An overview over our methodology can be seen in [this diagram](Images/SearchProcedure.pdf), which was created with the [PRISMA Shiny app]()[^4].
+An overview over our methodology can be seen in [this diagram](Images/SearchProcedure.pdf), which was created with the [PRISMA Shiny app](https://estech.shinyapps.io/prisma_flowdiagram/)[^4].
 All necessary, additional information (e.g. in- and exclusion criteria) are collected in the [reviewprotocol](Reviewprotocol.pdf).
 
 In general, we combine a keyword search using 4 keywords on 6 different search engines with a snowballing search on 6 related literature reviews.
