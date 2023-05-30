@@ -1,7 +1,6 @@
 # Commonsense Knowledge for Cognitive Robots: Supplementary Material
 
 This repository contains supplementary material to the paper "Commonsense Knowledge for Cognitive Robots: A Systematic Literature Review" submitted to the *Robotics and Autonomous Systems* journal.
-This work is a collaboration between the [Semantic Computing Group](https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/arbeitsgruppen/semantic-computing/) at the Center for Cognitive Interaction Technology @ Bielefeld University, the [DICE group](https://dice-research.org/) @ Paderborn University and the [Institute for Artificial Intelligence](https://ai.uni-bremen.de/) @ University of Bremen.
 
 ## Abstract
 
@@ -50,6 +49,11 @@ Since one full version could not be accessed and 29 provided no relevant content
 ├── Reviewprotocol.pdf                # the reviewprotocol documenting the systematic literature review
 └── Screening & Analysis.ods          # spreadsheet documenting the in- and exclusion process through the different screening steps
 ```
+
+## Disclaimer
+
+This work is a collaboration between the [Semantic Computing Group](https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/arbeitsgruppen/semantic-computing/) at the Center for Cognitive Interaction Technology @ Bielefeld University, the [DICE group](https://dice-research.org/) @ Paderborn University and the [Institute for Artificial Intelligence](https://ai.uni-bremen.de/) @ University of Bremen. Please contact <a href="https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/arbeitsgruppen/semantic-computing/team/jan-philipp-toeberg/">Jan-Philipp Töberg</a> (jtoeberg(at)techfak(dot)uni-bielefeld(dot)de) for further information or collaboration.
+
 
 [^1]: P. Zech, E. Renaudo, S. Haller, X. Zhang, and J. Piater, ‘Action representations in robotics: A taxonomy and systematic classification’, The International Journal of Robotics Research, vol. 38, no. 5, pp. 518–562, Apr. 2019, doi: [10.1177/0278364919835020](https://doi.org/10.1177/0278364919835020).
 [^2]: B. Kitchenham and S. Charters, ‘Guidelines for performing Systematic Literature Reviews in Software Engineering’, Keele University and University of Durham, 2007.
