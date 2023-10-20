@@ -1,16 +1,16 @@
 # Commonsense Knowledge for Cognitive Robots: Supplementary Material
 
-This repository contains supplementary material to the paper "Commonsense Knowledge for Cognitive Robots: A Systematic Literature Review" submitted to the *Robotics and Autonomous Systems* journal.
+This repository contains supplementary material to the paper "Commonsense Knowledge for Cognitive Robots: A Systematic Literature Review", which is currently under review.
 
 ## Abstract
 
 One of the big challenges in robotics is the generalisation necessary for performing unknown tasks in unknown environments on unknown objects.
-For us humans, this challenge is simplified by the commonsense knowledge we can access.
+For us humans, this challenge is simplified by the commonsense knowledge we can access. 
 For cognitive robotics, representing and acquiring commonsense knowledge is a relevant problem, so we perform a systematic literature review to investigate the current state of commonsense knowledge application in cognitive robotics.
-For this review, we combine a keyword search on six search engines with a snowballing search on six related reviews, resulting in 2.048 distinct publications.
-After applying pre-defined inclusion and exclusion criteria, we analyse the remaining 47 publications. 
-Our focus lies on the use cases and domains for which  commonsense knowledge is employed, the commonsense aspects that are considered, and the datasets / resources used as sources for  commonsense knowledge.
-Additionally, we discovered a divide in terminology between research from the knowledge representation and reasoning and the robotics community. 
+For this review, we combine a keyword search on six search engines with a snowballing search on six related reviews, resulting in 2048 distinct publications.
+After applying pre-defined inclusion and exclusion criteria, we analyse the remaining 52 publications.
+Our focus lies on the use cases and domains for which commonsense knowledge is employed, the commonsense aspects that are considered, the datasets / resources used as sources for commonsense knowledge and the methods for evaluating these approaches
+Additionally, we discovered a divide in terminology between research from the knowledge representation and reasoning and the robotics community.
 This divide is investigated by looking at the extensive review performed by Zech et al.[^1], with whom we have no overlapping publications despite the similar goals.
 
 ## Research Questions
@@ -19,6 +19,7 @@ Our paper aims at answering the following research questions by performing a sys
 - **RQ1** For which use cases has the use of CSK been considered in robotics research?
 - **RQ2** Which aspects of CSK have been considered? Which aspects of CSK have received less consideration?
 - **RQ3** Which datasets or resources are mainly considered in robotics as a source for CSK?
+- **RQ4** What methods are employed to assess the approaches? Which CSK datasets or resources are utilised in these evaluations?
 
 ## Search Methodology
 
@@ -28,14 +29,14 @@ All necessary, additional information (e.g. in- and exclusion criteria) are coll
 In general, we combine a keyword search using 4 keywords on 6 different search engines with a snowballing search on 6 related literature reviews.
 From the resulting 2.048 publications, the duplicates are excluded and they are filtered regarding their metadata, leaving us with 1.472 different publications.
 They are screened and filtered in two steps by first looking at their title and then at their abstract.
-After both screening steps, 77 publications remain that were read completely.
-Since one full version could not be accessed and 29 provided no relevant content for answering our research questions, we remain with 47 publications we analysed.
+After both screening steps, 80 publications remain that were read completely.
+Since one full version could not be accessed and 27 provided no relevant content for answering our research questions, we remain with 52 publications we analysed.
 
 ## Repository Structure
 ```bash
 ├── Data
 │   ├── Duplicates.csv                # duplicate occurrences between the 36 different sources
-│   ├── Final Publications.csv        # data for the 47 analysed publications
+│   ├── Final Publications.csv        # data for the 52 analysed publications
 │   └── Publications Zech2019.csv     # 152 publications included in the review by Zech et al.
 ├── Images                            # folder containing all images created for the reviewprotocol and the paper
 │   └── ...
@@ -54,6 +55,7 @@ Since one full version could not be accessed and 29 provided no relevant content
 
 This work is a collaboration between the [Semantic Computing Group](https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/arbeitsgruppen/semantic-computing/) at the Center for Cognitive Interaction Technology @ Bielefeld University, the [DICE group](https://dice-research.org/) @ Paderborn University and the [Institute for Artificial Intelligence](https://ai.uni-bremen.de/) @ University of Bremen. Please contact <a href="https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/arbeitsgruppen/semantic-computing/team/jan-philipp-toeberg/">Jan-Philipp Töberg</a> (jtoeberg(at)techfak(dot)uni-bielefeld(dot)de) for further information or collaboration.
 
+## References
 
 [^1]: P. Zech, E. Renaudo, S. Haller, X. Zhang, and J. Piater, ‘Action representations in robotics: A taxonomy and systematic classification’, The International Journal of Robotics Research, vol. 38, no. 5, pp. 518–562, Apr. 2019, doi: [10.1177/0278364919835020](https://doi.org/10.1177/0278364919835020).
 [^2]: B. Kitchenham and S. Charters, ‘Guidelines for performing Systematic Literature Reviews in Software Engineering’, Keele University and University of Durham, 2007.
