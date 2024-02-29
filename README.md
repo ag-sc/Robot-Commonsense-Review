@@ -1,6 +1,18 @@
 # Commonsense Knowledge for Cognitive Robots: Supplementary Material
 
-This repository contains supplementary material to the paper "Commonsense Knowledge for Cognitive Robots: A Systematic Literature Review", which is currently under review.
+This repository contains supplementary material to the paper **Commonsense Knowledge for Cognitive Robots: A Systematic Literature Review**, which has been published by the *Frontiers in Robotics and AI* journal.
+If you want to reference this work, please cite the following paper:
+```
+@article{Toberg2024CommonsenseKnowledge,
+	title = {Commonsense Knowledge in Cognitive Robotics: A Systematic Literature Review},
+	author = {T{\"o}berg, Jan-Philipp and Ngomo, Axel-Cyrille Ngonga and Beetz, Michael and Cimiano, Philipp},
+	year = {2024},
+	journal = {Frontiers in Robotics and AI},
+	volume = {11},
+	issn = {2296-9144},
+	doi = {10.3389/frobt.2024.1328934}
+}
+```
 
 ## Abstract
 
@@ -10,15 +22,15 @@ For cognitive robotics, representing and acquiring commonsense knowledge is a re
 For this review, we combine a keyword search on six search engines with a snowballing search on six related reviews, resulting in 2048 distinct publications.
 After applying pre-defined inclusion and exclusion criteria, we analyse the remaining 52 publications.
 Our focus lies on the use cases and domains for which commonsense knowledge is employed, the commonsense aspects that are considered, the datasets / resources used as sources for commonsense knowledge and the methods for evaluating these approaches
-Additionally, we discovered a divide in terminology between research from the knowledge representation and reasoning and the robotics community.
+Additionally, we discovered a divide in terminology between research from the knowledge representation and reasoning and the cognitive robotics community.
 This divide is investigated by looking at the extensive review performed by Zech et al.[^1], with whom we have no overlapping publications despite the similar goals.
 
 ## Research Questions
 
 Our paper aims at answering the following research questions by performing a systematic literature review following the principles and guidelines provided by Kitchenham and Charters[^2] and Okoli[^3]:
-- **RQ1** For which use cases has the use of CSK been considered in robotics research?
+- **RQ1** For which use cases has the use of CSK been considered in cognitive robotics research?
 - **RQ2** Which aspects of CSK have been considered? Which aspects of CSK have received less consideration?
-- **RQ3** Which datasets or resources are mainly considered in robotics as a source for CSK?
+- **RQ3** Which datasets or resources are mainly considered in cognitive robotics as a source for CSK?
 - **RQ4** What methods are employed to assess the approaches? Which CSK datasets or resources are utilised in these evaluations?
 
 ## Search Methodology
