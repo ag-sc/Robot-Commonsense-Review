@@ -1,6 +1,6 @@
 # Commonsense Knowledge for Cognitive Robots: Supplementary Material
 
-This repository contains supplementary material to the paper **Commonsense Knowledge for Cognitive Robots: A Systematic Literature Review**, which has been published by the *Frontiers in Robotics and AI* journal.
+This repository contains supplementary material to the paper **Commonsense Knowledge for Cognitive Robots: A Systematic Literature Review**, which has been published by the *Frontiers in Robotics and AI* journal and can be found [here](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1328934).
 If you want to reference this work, please cite the following paper:
 ```
 @article{Toberg2024CommonsenseKnowledge,
